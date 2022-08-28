@@ -1,0 +1,61 @@
+#body{
+    background-image: url(bg_1.jpg);
+    background-size: cover;
+	background-repeat:no-repeat;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.log
+{
+    color: black;
+}
+.login_div1 , .login_div2
+{
+	padding: 10px;
+	float: none;
+	color: black;
+	caret-color: black;
+}
+.inp , .inp2 , .inp_n_1 , .inp_n_2
+{
+	border-radius: 20px;
+	background-color: #DDBA9C;
+	color: black;
+	border-color: rgb(0, 0, 0);
+}
+#btn
+{
+	border-radius: 5px;
+	font-size: larger;
+	background-color: #DDBA9C;
+	color: black;
+	transition-duration: 0.8s;
+}
+#btn:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#btn_g
+{
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color:black ;
+	font-size: larger;
+	background-color: #DDBA9C;
+	color: black;
+	transition-duration: 0.8s;
+}
+#btn_g:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#output
+{
+	background-color: #DDBA9C;
+	border-radius: 10px;
+	border-style: solid;
+	padding: 10px;
+	float: none;
+	text-align: center;
+	width: 800px;
+}

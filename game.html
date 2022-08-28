@@ -1,0 +1,50 @@
+<html id="html_g">
+ <head>
+ <title>Log-In</title>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <script src="game.js"></script>
+ </head>
+
+ <body id="body">
+ <h4 id="player1_name"></h4><span id="player1_score"></span>
+ <br>
+ <h4 id="player2_name"></h4><span id="player2_score"></span>
+ <center style="margin-top:-26px ;">
+ <h1 class="log" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Math Game</h1>
+ 
+ <hr width="100px" style="height:2px;border-width:0;color:#DDBA9C;background-color:#DDBA9C">
+ <!-- <h3 id="player1_score"></h3>
+ <h3 id="player2_score"></h3> -->
+ <br>
+ <h3 id="player_q"></h3>
+ <h3 id="player_a"></h3>
+ <div id="output"></div>
+ <br>
+ <div class="col-lg-4 col-sm-8 col-xs-11 login_div1" >
+    <h3>First Number</h3>
+    <br>
+    <br>
+    <input class="form-control inp_n_1" type="text" id="first_n" placeholder="Enter The First Number">
+    <br>	
+</div>
+
+<hr width="50%" style="height:2px;border-width:0;color:#DDBA9C;background-color:#DDBA9C">
+   
+<div class="col-lg-4 col-sm-8 col-xs-11 login_div2" >
+    <h3>Second Number</h3>
+    <br>
+    <br>
+    <input class="form-control inp_n_2" type="text" id="second_n" placeholder="Enter The second Number">
+    <br>
+</div>
+ <button onclick="send()" class="btn btn-primary" id="btn_g">Send Question</button>
+ <br>
+ <br>
+ </center>
+ </body>
+</html>
